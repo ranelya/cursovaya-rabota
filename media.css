@@ -146,6 +146,30 @@
 	}
  }
 
+ @media screen and (min-width: 768px) {
+  #contact-section {
+    padding: 58px 0 52px;
+  }
+
+  .contacts-wrap {
+    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
+    justify-content: space-between;
+  }
+
+  .contact {
+    max-width: 455px;
+  }
+
+  .contact-form {
+    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
+    width: auto;
+  }
+
+  .contact-form_input {
+    width: auto;
+  }
+}
+
  @media screen and (max-width: 767px) {
   .footer-wrap,
   .footer-nav-wrap,
