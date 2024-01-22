@@ -171,6 +171,33 @@
   }
 }
 
+@media (max-width: 600px) {
+  .feedback_title {
+    font-size: 24px; /* Уменьшение размера шрифта */
+    line-height: 36px; /* Увеличение line-height для лучшей читаемости */
+  }
+
+  .feedback_txt {
+    font-size: 14px; /* Уменьшение размера шрифта */
+    line-height: 22px; /* Уменьшение line-height для лучшей читаемости */
+  }
+
+  .feedback_img {
+    width: 60px; /* Уменьшение размера изображения */
+    height: 60px; /* Уменьшение размера изображения */
+  }
+
+  .feedback-name {
+    font-size: 16px; /* Уменьшение размера шрифта */
+    line-height: 22px; /* Уменьшение line-height для лучшей читаемости */
+    margin-bottom: 8px; /* Уменьшение отступа снизу */
+  }
+
+  .feedback_comment {
+    font-size: 12px; /* Уменьшение размера шрифта */
+    line-height: 18px; /* Уменьшение line-height для лучшей читаемости */
+  }
+}
 
  @media(max-width:769.99px){
 	.service-section{
