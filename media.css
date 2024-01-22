@@ -37,6 +37,42 @@
 
  }
 
+ @media(max-width:600.99px){
+	.header_section{
+		flex-direction: column;
+	}
+  
+	.header_logo{
+		font-size: 40px;
+		line-height: 44px;
+	}
+	}
+
+ @media screen and (min-width: 768px) {
+  #banner-section {
+    padding: 132px 0 185px;
+  }
+
+  .banner-wrap {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .banner {
+    max-width: 550px;
+  }
+
+  .banner_tit {
+    font-size: 48px;
+  }
+
+  .banner_txt {
+    margin: 20px 0 54px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
  @media screen and (max-width: 1009px) {
   .about-wrap {
     flex-direction: column; /* Изменение направления расположения элементов на столбец */

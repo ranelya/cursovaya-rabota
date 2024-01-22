@@ -170,6 +170,8 @@ button {
   width: 530px;
   height: 458px;
   background: url(img/img/banner.png) 50%/cover no-repeat;
+  display: block;
+  background-position:center ;
 }
 
 /* About */
