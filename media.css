@@ -37,6 +37,17 @@
 
  }
 
+ @media screen and (max-width: 1009px) {
+  .about-wrap {
+    flex-direction: column; /* Изменение направления расположения элементов на столбец */
+  }
+
+  .about_img::before {
+    left: 0; /* Смещение изображения влево на 0% на узких экранах */
+    width: 100%; /* Занимает всю ширину на узких экранах */
+  }
+}
+
  @media(max-width:769.99px){
 	.banner-section{
 		font-size: 40px;
@@ -57,14 +68,39 @@
 
  @media(max-width:769.99px){
 	.sales-section{
-		width: 450px;
-		height: 450px;
+		width: 400px;
+		height: 400px;
 	}
 
-	.sales-img{
-		width: 40%;
+	@media screen and (max-width: 767px) {
+		.sales-img {
+			width: 100%; 
+			background-size: cover;
+		}
 	}
  }
+
+ @media screen and (min-width: 768px) {
+  .projects_link {
+    grid-column: auto; /* Сброс grid-column */
+  }
+
+  .projects_link:nth-child(1) {
+    grid-column: 1/3;
+  }
+
+  .projects_link:nth-child(2) {
+    grid-column: 3/4;
+  }
+
+  .projects_link:nth-child(3) {
+    grid-column: 1/2;
+  }
+
+  .projects_link:nth-child(4) {
+    grid-column: 2/4;
+  }
+}
 
 
  @media(max-width:769.99px){
@@ -74,32 +110,10 @@
 	}
  }
 
- @media(max-width:769.99px){
-   .footer-section{
-		flex-direction: column;
-	 }
-	 .footer-info{
-		font-size: 20px;
-		line-height: 24px;
-	 }
-   
-  .footer-nav-wrap{
-		grid-template-rows: auto;
-		width: 400px;
-		height: 400px;
+ @media screen and (max-width: 767px) {
+  .footer-wrap,
+  .footer-nav-wrap,
+  .footer-social-wrap {
+    justify-content: center; 
   }
-
-	.footer-social-wrap{
-		grid-template-rows: auto;
-		width: 300px;
-		height: 300px;
-	}
-	.footer-nav_item{
-		font-size: 10px;
-		line-height: 14px;
-	
-	}
-
-
- }
- 
+}
