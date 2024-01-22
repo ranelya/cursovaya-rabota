@@ -80,6 +80,18 @@
   }
 }
 
+@media (max-width: 600.99px){
+  .banner-section {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .banner_txt {
+    font-size: 25px;
+    line-height: 29px;
+  }
+}
+
  @media screen and (max-width: 1009px) {
   .about-wrap {
     flex-direction: column; /* Изменение направления расположения элементов на столбец */
