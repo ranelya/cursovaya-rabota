@@ -103,6 +103,13 @@
   }
 }
 
+@media (max-width: 600.99px) {
+	.about-section {
+    width: 450px;
+    height: 450px;
+  }
+}
+
  @media(max-width:769.99px){
 	.banner-section{
 		font-size: 40px;
