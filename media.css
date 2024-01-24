@@ -134,13 +134,37 @@
 		height: 400px;
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 992px) {
 		.sales-img {
-			width: 100%; 
-			background-size: cover;
+      left: 0; /* Смещение изображения влево на 0% на узких экранах */
+      width: 100%; /* Занимает всю ширину на узких экранах */
+     
 		}
+    .sales{
+      font-style: 25px;
+      line-height: 29px;
+    }
+    .sales-wrap{
+      flex-direction: column;
+    }
 	}
  }
+
+ @media screen and (max-width: 600px) {
+  .sales-img {
+    left: 0; /* Смещение изображения влево на 0% на узких экранах */
+    width: 60%; /* Занимает всю ширину на узких экранах */
+  }
+  .sales{
+    font-style: 25px;
+    line-height: 29px;
+  }
+  .sales-wrap{
+    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
+    justify-content: space-between;
+    }
+}
+
 
  @media (max-width: 600.99px){
 	.sales-section {
