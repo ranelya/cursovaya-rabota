@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 590.99px){
+@media (max-width: 540.99px){
   .banner-section {
     font-size: 16px;
     line-height: 14px;
@@ -108,8 +108,7 @@
     line-height: 10px;
   }
   .banner-img{
-    display: block;width: 49px;
-    height: 49px;
+   display: none;
   }
 }
 
@@ -171,7 +170,9 @@
  }
 
  @media only screen and (max-width: 414px) {
-  
+  .sales-wrap{
+    flex-direction: column;
+  }
 
   .service-img {
     width: 80px;
@@ -214,21 +215,6 @@
 	}
  }
 
- @media screen and (max-width: 600px) {
-  .sales-img {
-    left: 0; /* Смещение изображения влево на 0% на узких экранах */
-    width: 60%; /* Занимает всю ширину на узких экранах */
-  }
-  .sales{
-    font-style: 25px;
-    line-height: 29px;
-  }
-  .sales-wrap{
-    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
-    justify-content: space-between;
-    }
-}
-
 
  @media (max-width: 600.99px){
 	.sales-section {
@@ -258,6 +244,60 @@
     grid-column: 2/4;
   }
 }
+
+@media only screen and (max-width: 414px) {
+  /* Устанавливаем стили для маленьких экранов, например, для айфона XR */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Выравниваем изображение и ссылки по вертикали */
+  }
+
+  .projects_link {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  /* Убираем у изображения максимальную ширину, чтобы оно не сжималось */
+  .projects_img {
+    max-width: none;
+    height: auto; /* Поддерживаем пропорциональное изменение высоты */
+    margin-right: 10px; /* Добавляем отступ справа от изображения */
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  /* Устанавливаем стили для маленьких экранов, например, для айфона XR */
+  .sales-wrap {
+    flex-direction: column-reverse; /* Переворачиваем порядок блоков для мобильных устройств */
+  }
+
+  .sales {
+    margin-bottom: 20px; /* Добавляем отступ между блоками */
+  }
+
+  .sec-tit.sales_tit {
+    font-size: 20px; /* Уменьшаем размер заголовка */
+    line-height: 1.2; /* Устанавливаем межстрочный интервал */
+  }
+
+  .sales_list {
+    padding-left: 20px; /* Добавляем отступ слева для списка */
+  }
+
+  .sales-item {
+    font-size: 14px; /* Уменьшаем размер текста в элементах списка */
+    margin-bottom: 10px; /* Добавляем отступ между элементами списка */
+  }
+
+  .sales-img {
+    width: 100%; /* Делаем изображение шириной по размеру контейнера */
+    height: auto; /* Поддерживаем пропорциональное изменение высоты */
+  }
+}
+
 
 @media (max-width: 600px) {
   .feedback_title {
