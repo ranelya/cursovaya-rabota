@@ -55,6 +55,23 @@
     }
   }
 
+  @media only screen and (max-width: 450px) {
+    .header_logo {
+     font-size: 20px;
+    }
+    .material-symbols-outlined {
+      display: block;
+    }
+  
+    .nav-main_list {
+      display: none;
+    }
+
+    .nav-main_list.active {
+      display: block;
+    }
+  }
+
  @media screen and (min-width: 768px) {
   #banner-section {
     padding: 132px 0 185px;
@@ -80,15 +97,19 @@
   }
 }
 
-@media (max-width: 600.99px){
+@media (max-width: 590.99px){
   .banner-section {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 16px;
+    line-height: 14px;
   }
 
   .banner_txt {
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .banner-img{
+    display: block;width: 49px;
+    height: 49px;
   }
 }
 
