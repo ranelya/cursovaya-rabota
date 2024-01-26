@@ -507,3 +507,21 @@
     /* Дополнительное уменьшение радиуса скругления */
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .footer-nav-wrap {
+    flex-direction: column; /* Располагаем элементы подвала вертикально на мобильных устройствах */
+  }
+
+  .footer-nav {
+    margin-bottom: 20px; /* Добавляем отступ между блоками навигации */
+  }
+
+  .footer-social-wrap {
+    margin-top: 20px; /* Добавляем отступ перед блоком социальных ссылок */
+  }
+
+  .footer-social_txt {
+    margin-top: 10px; /* Добавляем отступ над текстом */
+  }
+}
