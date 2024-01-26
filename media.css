@@ -170,6 +170,28 @@
 	}
  }
 
+ @media only screen and (max-width: 414px) {
+  
+
+  .service-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .service_tit {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .service_txt {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
  @media(max-width:769.99px){
 	.sales-section{
 		width: 400px;
