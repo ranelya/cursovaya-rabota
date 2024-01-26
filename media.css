@@ -25,54 +25,55 @@
 } */
 
 
- @media(max-width:769.99px){
-	.header_section{
-		flex-direction: column;
-	}
-  
-	.header_logo{
-		font-size: 70px;
-		line-height: 84px;
-	}
-
- }
-
- @media(max-width:600.99px){
-	.header_section{
-		flex-direction: column;
-	}
-  
-	.header_logo{
-		font-size: 40px;
-		line-height: 44px;
-	}
-	}
-
-	@media (max-width: 600.99px) {
-    .header_logo {
-      font-size: 40px;
-      line-height: 44px;
-    }
+@media(max-width:769.99px) {
+  .header_section {
+    flex-direction: column;
   }
 
-  @media only screen and (max-width: 450px) {
-    .header_logo {
-     font-size: 20px;
-    }
-    .material-symbols-outlined {
-      display: block;
-    }
-  
-    .nav-main_list {
-      display: none;
-    }
-
-    .nav-main_list.active {
-      display: block;
-    }
+  .header_logo {
+    font-size: 70px;
+    line-height: 84px;
   }
 
- @media screen and (min-width: 768px) {
+}
+
+@media(max-width:600.99px) {
+  .header_section {
+    flex-direction: column;
+  }
+
+  .header_logo {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 600.99px) {
+  .header_logo {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header_logo {
+    font-size: 20px;
+  }
+
+  .material-symbols-outlined {
+    display: block;
+  }
+
+  .nav-main_list {
+    display: none;
+  }
+
+  .nav-main_list.active {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
   #banner-section {
     padding: 132px 0 185px;
   }
@@ -97,7 +98,7 @@
   }
 }
 
-@media (max-width: 540.99px){
+@media (max-width: 540.99px) {
   .banner-section {
     font-size: 16px;
     line-height: 14px;
@@ -107,14 +108,15 @@
     font-size: 10px;
     line-height: 10px;
   }
-  .banner-img{
-   display: none;
+
+  .banner-img {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 414px) {
   .banner_tit {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .banner_txt {
@@ -123,54 +125,58 @@
 
   .banner_btn,
   .banner_link {
-    font-size: 12px; 
-    padding: 8px 16px; 
+    font-size: 12px;
+    padding: 8px 16px;
   }
 
   .banner_img {
-   display: none;
+    display: none;
   }
 }
 
 
- @media screen and (max-width: 1009px) {
+@media screen and (max-width: 1009px) {
   .about-wrap {
-    flex-direction: column; /* Изменение направления расположения элементов на столбец */
+    flex-direction: column;
+    /* Изменение направления расположения элементов на столбец */
   }
 
   .about_img::before {
-    left: 0; /* Смещение изображения влево на 0% на узких экранах */
-    width: 100%; /* Занимает всю ширину на узких экранах */
+    left: 0;
+    /* Смещение изображения влево на 0% на узких экранах */
+    width: 100%;
+    /* Занимает всю ширину на узких экранах */
   }
 }
 
 @media (max-width: 600.99px) {
-	.about-section {
+  .about-section {
     width: 450px;
     height: 450px;
   }
 }
 
- @media(max-width:769.99px){
-	.banner-section{
-		font-size: 40px;
-		line-height: 44px;
-	}
-	.banner_txt{
-		font-size: 25px;
+@media(max-width:769.99px) {
+  .banner-section {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .banner_txt {
+    font-size: 25px;
     line-height: 29px;
-	}
- }
+  }
+}
 
- @media(max-width:769.99px){
-	.about-section{
-		width: 450px;
-		height: 450px;
-	}
- }
+@media(max-width:769.99px) {
+  .about-section {
+    width: 450px;
+    height: 450px;
+  }
+}
 
- @media only screen and (max-width: 414px) {
-  .sales-wrap{
+@media only screen and (max-width: 414px) {
+  .sales-wrap {
     flex-direction: column;
   }
 
@@ -193,39 +199,44 @@
 
 
 
- @media(max-width:769.99px){
-	.sales-section{
-		width: 400px;
-		height: 400px;
-	}
+@media(max-width:769.99px) {
+  .sales-section {
+    width: 400px;
+    height: 400px;
+  }
 
-	@media screen and (max-width: 992px) {
-		.sales-img {
-      left: 0; /* Смещение изображения влево на 0% на узких экранах */
-      width: 100%; /* Занимает всю ширину на узких экранах */
-     
-		}
-    .sales{
+  @media screen and (max-width: 992px) {
+    .sales-img {
+      left: 0;
+      /* Смещение изображения влево на 0% на узких экранах */
+      width: 100%;
+      /* Занимает всю ширину на узких экранах */
+
+    }
+
+    .sales {
       font-style: 25px;
       line-height: 29px;
     }
-    .sales-wrap{
+
+    .sales-wrap {
       flex-direction: column;
     }
-	}
- }
+  }
+}
 
 
- @media (max-width: 600.99px){
-	.sales-section {
+@media (max-width: 600.99px) {
+  .sales-section {
     width: 400px;
     height: 400px;
-	}
- }
+  }
+}
 
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .projects_link {
-    grid-column: auto; /* Сброс grid-column */
+    grid-column: auto;
+    /* Сброс grid-column */
   }
 
   .projects_link:nth-child(1) {
@@ -246,12 +257,14 @@
 }
 
 @media only screen and (max-width: 414px) {
+
   /* Устанавливаем стили для маленьких экранов, например, для айфона XR */
   .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center; /* Выравниваем изображение и ссылки по вертикали */
+    align-items: center;
+    /* Выравниваем изображение и ссылки по вертикали */
   }
 
   .projects_link {
@@ -262,85 +275,131 @@
   /* Убираем у изображения максимальную ширину, чтобы оно не сжималось */
   .projects_img {
     max-width: none;
-    height: auto; /* Поддерживаем пропорциональное изменение высоты */
-    margin-right: 10px; /* Добавляем отступ справа от изображения */
+    height: auto;
+    /* Поддерживаем пропорциональное изменение высоты */
+    margin-right: 10px;
+    /* Добавляем отступ справа от изображения */
   }
 }
 
 
 @media only screen and (max-width: 414px) {
+
   /* Устанавливаем стили для маленьких экранов, например, для айфона XR */
   .sales-wrap {
-    flex-direction: column-reverse; /* Переворачиваем порядок блоков для мобильных устройств */
+    flex-direction: column-reverse;
+    /* Переворачиваем порядок блоков для мобильных устройств */
   }
 
   .sales {
-    margin-bottom: 20px; /* Добавляем отступ между блоками */
+    margin-bottom: 20px;
+    /* Добавляем отступ между блоками */
   }
 
   .sec-tit.sales_tit {
-    font-size: 20px; /* Уменьшаем размер заголовка */
-    line-height: 1.2; /* Устанавливаем межстрочный интервал */
+    font-size: 20px;
+    /* Уменьшаем размер заголовка */
+    line-height: 1.2;
+    /* Устанавливаем межстрочный интервал */
   }
 
   .sales_list {
-    padding-left: 20px; /* Добавляем отступ слева для списка */
+    padding-left: 20px;
+    /* Добавляем отступ слева для списка */
   }
 
   .sales-item {
-    font-size: 14px; /* Уменьшаем размер текста в элементах списка */
-    margin-bottom: 10px; /* Добавляем отступ между элементами списка */
+    font-size: 14px;
+    /* Уменьшаем размер текста в элементах списка */
+    margin-bottom: 10px;
+    /* Добавляем отступ между элементами списка */
   }
 
   .sales-img {
-    width: 100%; /* Делаем изображение шириной по размеру контейнера */
-    height: auto; /* Поддерживаем пропорциональное изменение высоты */
+    width: 100%;
+    /* Делаем изображение шириной по размеру контейнера */
+    height: auto;
+    /* Поддерживаем пропорциональное изменение высоты */
   }
 }
 
 
 @media (max-width: 600px) {
   .feedback_title {
-    font-size: 24px; /* Уменьшение размера шрифта */
-    line-height: 36px; /* Увеличение line-height для лучшей читаемости */
+    font-size: 24px;
+    /* Уменьшение размера шрифта */
+    line-height: 36px;
+    /* Увеличение line-height для лучшей читаемости */
   }
 
   .feedback_txt {
-    font-size: 14px; /* Уменьшение размера шрифта */
-    line-height: 22px; /* Уменьшение line-height для лучшей читаемости */
+    font-size: 14px;
+    /* Уменьшение размера шрифта */
+    line-height: 22px;
+    /* Уменьшение line-height для лучшей читаемости */
   }
 
   .feedback_img {
-    width: 60px; /* Уменьшение размера изображения */
-    height: 60px; /* Уменьшение размера изображения */
+    width: 60px;
+    /* Уменьшение размера изображения */
+    height: 60px;
+    /* Уменьшение размера изображения */
   }
 
   .feedback-name {
-    font-size: 16px; /* Уменьшение размера шрифта */
-    line-height: 22px; /* Уменьшение line-height для лучшей читаемости */
-    margin-bottom: 8px; /* Уменьшение отступа снизу */
+    font-size: 16px;
+    /* Уменьшение размера шрифта */
+    line-height: 22px;
+    /* Уменьшение line-height для лучшей читаемости */
+    margin-bottom: 8px;
+    /* Уменьшение отступа снизу */
   }
 
   .feedback_comment {
-    font-size: 12px; /* Уменьшение размера шрифта */
-    line-height: 18px; /* Уменьшение line-height для лучшей читаемости */
+    font-size: 12px;
+    /* Уменьшение размера шрифта */
+    line-height: 18px;
+    /* Уменьшение line-height для лучшей читаемости */
   }
 }
 
- @media(max-width:769.99px){
-	.service-section{
-		grid-template-columns: auto;
-		row-gap: 40px;
-	}
- }
+@media only screen and (max-width: 414px) {
 
- @media screen and (min-width: 768px) {
+  .feedback-wrap {
+    flex-direction: column;
+  }
+
+  .feedback-name {
+    font-size: 18px;
+  }
+
+  .feedback_comment {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+    .btn-slider-wrap {
+      text-align: center;
+    }
+  }
+
+
+
+@media(max-width:769.99px) {
+  .service-section {
+    grid-template-columns: auto;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   #contact-section {
     padding: 58px 0 52px;
   }
 
   .contacts-wrap {
-    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
+    flex-direction: row;
+    /* Возвращаем расположение элементов в ряд на более широких экранах */
     justify-content: space-between;
   }
 
@@ -349,7 +408,8 @@
   }
 
   .contact-form {
-    flex-direction: row; /* Возвращаем расположение элементов в ряд на более широких экранах */
+    flex-direction: row;
+    /* Возвращаем расположение элементов в ряд на более широких экранах */
     width: auto;
   }
 
@@ -372,9 +432,9 @@
 
 @media (max-width: 600px) {
   .contact-form {
-    width: 100%; 
-    flex-direction: column; 
-    gap: 15px; 
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .contact-form_input {
@@ -382,38 +442,47 @@
   }
 }
 
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+
   .footer-wrap,
   .footer-nav-wrap,
   .footer-social-wrap {
-    justify-content: center; 
+    justify-content: center;
   }
 }
 
 @media (max-width: 600px) {
   #footer-section {
-    padding: 30px 0; /* Дополнительное уменьшение вертикального отступа */
+    padding: 30px 0;
+    /* Дополнительное уменьшение вертикального отступа */
   }
 
   .footer-wrap {
-    gap: 15px; /* Уменьшение пространства между элементами */
+    gap: 15px;
+    /* Уменьшение пространства между элементами */
   }
 
   .footer-info_logo {
-    font-size: 24px; /* Дополнительное уменьшение размера шрифта */
+    font-size: 24px;
+    /* Дополнительное уменьшение размера шрифта */
   }
 
   .footer_tit {
-    font-size: 18px; /* Дополнительное уменьшение размера шрифта */
+    font-size: 18px;
+    /* Дополнительное уменьшение размера шрифта */
   }
 
   .footer-nav_link {
-    line-height: 24px; /* Увеличение высоты строки для лучшей читаемости */
+    line-height: 24px;
+    /* Увеличение высоты строки для лучшей читаемости */
   }
 
   .footer-social_link {
-    width: 24px; /* Дополнительное уменьшение размера иконок */
-    height: 24px; /* Дополнительное уменьшение размера иконок */
-    border-radius: 4px; /* Дополнительное уменьшение радиуса скругления */
+    width: 24px;
+    /* Дополнительное уменьшение размера иконок */
+    height: 24px;
+    /* Дополнительное уменьшение размера иконок */
+    border-radius: 4px;
+    /* Дополнительное уменьшение радиуса скругления */
   }
 }
