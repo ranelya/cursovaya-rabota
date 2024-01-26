@@ -392,6 +392,27 @@
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .blog-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .blog_img {
+    width: 100%; /* Ширина изображения занимает всю доступную ширину */
+    height: auto;
+  }
+
+
+}
+
+
 @media screen and (min-width: 768px) {
   #contact-section {
     padding: 58px 0 52px;
