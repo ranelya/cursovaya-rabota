@@ -113,6 +113,27 @@
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .banner_tit {
+    font-size: 20px; 
+  }
+
+  .banner_txt {
+    font-size: 14px;
+  }
+
+  .banner_btn,
+  .banner_link {
+    font-size: 12px; 
+    padding: 8px 16px; 
+  }
+
+  .banner_img {
+   display: none;
+  }
+}
+
+
  @media screen and (max-width: 1009px) {
   .about-wrap {
     flex-direction: column; /* Изменение направления расположения элементов на столбец */
