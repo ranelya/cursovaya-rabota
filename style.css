@@ -819,6 +819,12 @@ button {
   transform: rotate(45deg);
 }
 
+.burger--active::after{
+  bottom: auto;
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
 @media(max-width:992px){
   .burger{
     display: block;
