@@ -814,6 +814,11 @@ button {
   bottom: 0;
 }
 
+.burger--active::before{
+  top: 50%;
+  transform: rotate(45deg);
+}
+
 @media(max-width:992px){
   .burger{
     display: block;
