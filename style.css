@@ -827,7 +827,10 @@ button {
 
 .burger--active .burger_line{
   opacity: 0;
+}
 
+.stop-scroll{
+  overflow: hidden;
 }
 
 @media(max-width:992px){
