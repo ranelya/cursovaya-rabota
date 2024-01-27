@@ -774,35 +774,13 @@ button {
  }
 
  /* Burger */
- .menu-icon {
-  display: none; /* Hide the menu icon by default */
+ .burger{
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: none;
+  border: none;
   cursor: pointer;
-  font-size: 1.5em;
-  color: #F3F4FF;
+  padding: 0;
+  background-color: transparent;
 }
-
-@media screen and (max-width: 992px) {
-  .nav-main_list {
-      display: none; /* Hide the menu items by default on smaller screens */
-      flex-direction: column;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      background-color: #545EE1;
-  }
-
-  .nav-main_list.show {
-      display: flex; /* Show the menu items when the show class is added */
-  }
-
-  .nav-main_item {
-      margin: 0;
-      text-align: center;
-  }
-
-  .menu-icon {
-      display: block; /* Show the menu icon on smaller screens */
-  }
-}
-
