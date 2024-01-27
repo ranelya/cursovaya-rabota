@@ -825,6 +825,11 @@ button {
   transform: rotate(-45deg);
 }
 
+.burger--active .burger_line{
+  opacity: 0;
+
+}
+
 @media(max-width:992px){
   .burger{
     display: block;
