@@ -9,6 +9,7 @@
 body {
   color: #666;
   font: 500 18px 'Inter', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -791,7 +792,7 @@ button {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  height: 2px;background-color: aliceblue;
+  height: 2px;background-color: #080A2B;
   transition: opacity .3s ease-in-out;
 }
 
@@ -801,7 +802,7 @@ button {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: aliceblue;
+  background-color: #080A2B;
   left: 0;
   transition: transform .3s ease-in-out , top .3s ease-in-out , bottom .3s ease-in-out;
 }
