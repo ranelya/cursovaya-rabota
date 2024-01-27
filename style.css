@@ -809,3 +809,7 @@ button {
 .burger::before{
   top: 0;
 }
+
+.burger::after{
+  bottom: 0;
+}
